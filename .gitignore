@@ -1,0 +1,74 @@
+# General .gitignore for C and Assembly projects
+# Compiled object files, binaries, and libraries
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.out
+*.elf
+*.bin
+*.exe
+*.map
+*.core
+core
+*.stackdump
+
+# Executables (no extension, common in Unix)
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+*.orig
+*.rej
+
+# Build directories
+build/
+Build/
+bin/
+Bin/
+obj/
+Obj/
+out/
+Out/
+Debug/
+debug/
+Release/
+release/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.sublime*
+*.code-workspace
+*.iml
+
+# Cscope/ctags
+cscope.*
+tags
+TAGS
+
+# Assembly listing and debug files
+*.lst
+*.lss
+*.sym
+*.dSYM/
+
+# GDB and Valgrind
+vgcore.*
+.gdb_history
+.gdbinit
+
+# Project-specific output (optional, uncomment if needed)
+# output.txt
+# *.dmp

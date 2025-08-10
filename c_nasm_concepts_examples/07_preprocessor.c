@@ -12,6 +12,7 @@ int main()
 {
     // Use the PI macro (replaces PI with 3.14159)
     printf("PI = %f\n", PI);
+    
 
     // Use the SQUARE macro (replaces SQUARE(4) with ((4) * (4)))
     printf("SQUARE(4) = %d\n", SQUARE(4));

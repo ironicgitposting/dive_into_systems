@@ -45,19 +45,6 @@ int main() {
 
 #include <stdio.h>
 
-void changeValue(int *x)
-{
-    *x = 20; // Go to the address and change the value there
-}
-
-int main()
-{
-    int a = 10;
-    changeValue(&a);       // Pass the address of 'a'
-    printf("a = %d\n", a); // a is now 20
-    return 0;
-}
-
 void set_to_100(int *ptr)
 {
     // This function sets the value at the address pointed to by ptr to 100

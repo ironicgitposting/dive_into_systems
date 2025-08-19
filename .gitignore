@@ -1,4 +1,5 @@
 # General .gitignore for C and Assembly projects
+
 # Compiled object files, binaries, and libraries
 *.o
 *.obj
@@ -19,7 +20,22 @@
 core
 *.stackdump
 
-# Executables (no extension, common in Unix)
+# Common C/C++/ASM executables (no extension, or custom names)
+a.out
+a.exe
+a.bin
+*.run
+*.test
+*.app
+
+# Exclude all files in the root that are likely to be compiled binaries
+/*_test
+/*_bin
+/*_out
+/*_exe
+
+
+# Editor/IDE temporary files
 *~
 *.swp
 *.swo
@@ -28,6 +44,7 @@ core
 *.old
 *.orig
 *.rej
+
 
 # Build directories
 build/
